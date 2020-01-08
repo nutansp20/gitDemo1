@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Academy.HomePageStepDef">
+        <methods>
+          <include name="screenShotTest"/>
+          <include name="windwClose"/>
+        </methods>
+      </class> <!-- Academy.HomePageStepDef -->
+      <class name="Academy.AddressBookStepDef">
+        <methods>
+          <include name="getTitleText"/>
+          <include name="Credentials"/>
+          <include name="windwClose"/>
+          <include name="screenShotTest"/>
+        </methods>
+      </class> <!-- Academy.AddressBookStepDef -->
+      <class name="resources.Base">
+        <methods>
+          <include name="screenShotTest"/>
+        </methods>
+      </class> <!-- resources.Base -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

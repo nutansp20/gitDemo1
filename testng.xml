@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<Listeners>
+ <Listener class-name="Academy.Listeners"/>
+  <Listener class-name="resources.ExtentReporterNG"/>
+ </Listeners>
+ 
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="resources.Base"/>
+      <class name="Academy.HomePageStepDef"/>
+      <class name="Academy.AddressBookStepDef"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
